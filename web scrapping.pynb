@@ -1,0 +1,171 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4a8ea1f6-85c9-4658-80aa-5343de1d39df",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q1. What is Web Scraping? Why is it Used? Give three areas where Web Scraping is used to get data."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "24f242d1-09c0-430c-843d-598d13e5c377",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Web scraping is a method of automatically extracting data from websites using software or programs. It involves extracting HTML code and relevant data from web pages and converting it into structured and usable formats, such as spreadsheets, CSV files, or databases.\n",
+    "\n",
+    "Web scraping is used for a variety of reasons, including:\n",
+    "\n",
+    "1. Data collection for research: Web scraping is used to collect large amounts of data for research purposes. This can include gathering information about a particular market, industry, or competitor.\n",
+    "\n",
+    "2. Lead generation: Web scraping is used to collect contact information (such as email addresses and phone numbers) for potential leads. This can help businesses generate new customers and increase sales.\n",
+    "\n",
+    "3. Price monitoring: Web scraping is used to monitor prices for products and services offered by competitors. This can help businesses stay competitive and adjust their pricing strategies accordingly.\n",
+    "\n",
+    "Three areas where web scraping is used to get data are:\n",
+    "\n",
+    "1. E-commerce: Web scraping is used in the e-commerce industry to collect product information from competitor websites. This information can help businesses make better pricing decisions and improve their product offerings.\n",
+    "\n",
+    "2. Travel industry: Web scraping is used in the travel industry to collect information about flights, hotels, and rental cars. This information can help travel agencies and airlines make informed decisions about pricing and inventory management.\n",
+    "\n",
+    "3. Social media monitoring: Web scraping is used to monitor social media platforms for brand mentions and customer feedback. This information can help businesses improve their products and services and respond to customer inquiries in a timely manner."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bc489d4e-6970-41ec-9655-e9e484498464",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q2. What are the different methods used for Web Scraping?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "254bade8-ff0d-4980-aacb-4c6a48059a8b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "There are several methods used for web scraping, including:\n",
+    "\n",
+    "1. Parsing HTML: This method involves parsing HTML code of a website and extracting relevant information using libraries like Beautiful Soup, HTML Parser, or lxml.\n",
+    "\n",
+    "2. Using Web Scraping Libraries: Libraries like Scrapy, Puppeteer, or Selenium can be used to automate the web scraping process. These libraries provide tools to interact with web pages and extract data.\n",
+    "\n",
+    "3. Application Programming Interfaces (APIs): Some websites provide APIs that allow developers access to their data. These APIs can be used to scrape data in a more structured manner.\n",
+    "\n",
+    "4. Using web scraping tools: There are several web scraping tools like Octoparse, ParseHub, WebHarvy, and more that can be used to scrape data from websites without code.\n",
+    "\n",
+    "5. Data Extraction Services: Third-party data extraction services like Import.io, Datahut, or Scrapinghub provide on-demand web scraping services that can scrape websites at scale."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "20d5d68b-17f9-4301-8bb6-5354b50d690f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q3. What is Beautiful Soup? Why is it used?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "62310e1d-fa5a-4d0d-86e7-31a449c1c60a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Beautiful Soup is a Python library that is used to parse HTML and XML documents. It is a web scraping library that allows developers to extract data from HTML and XML files and often used in combination with other web scraping libraries like Requests and lxml.\n",
+    "\n",
+    "Beautiful Soup provides useful tools for searching and manipulating parsed data trees. It not only allows developers to extract relevant data, but also to navigate an HTML document with ease. It is designed to handle a wide variety of HTML page structures, making it a flexible and powerful tool for web scraping.\n",
+    "\n",
+    "Beautiful Soup is widely used for web scraping because of its ease of use, flexibility, and compatibility with other Python libraries. It supports multiple parsing strategies and can handle broken HTML code. It also has extensive documentation and a large user community, which provides support and resources for developers.\n",
+    "\n",
+    "Overall, Beautiful Soup is a robust and powerful web scraping tool that can simplify the web scraping process and make it easier to extract data from HTML and XML documents."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c2ee7735-ab9b-4e01-992a-6f4b630c1f5d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q4. Why is flask used in this Web Scraping project?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2a4ab27c-1883-4c27-8007-c8149969b788",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Flask is a lightweight Python web framework that is often used for creating web applications and APIs. In this web scraping project, Flask can be used to create a server that can handle incoming requests and send the data scraped from the website as a response.\n",
+    "\n",
+    "Flask is a good choice for this project because:\n",
+    "\n",
+    "1. It is easy to set up and use, which makes it faster for developers to create a server.\n",
+    "\n",
+    "2. It supports several HTTP request types and can handle incoming requests with ease.\n",
+    "\n",
+    "3. It has a built-in development server that allows developers to test their code easily.\n",
+    "\n",
+    "4. Flask is a micro-framework, which means that it provides only the essential features required for web development, making it lightweight and efficient.\n",
+    "\n",
+    "5. Flask makes it easy to integrate third-party libraries like Beautiful Soup and Requests, which are commonly used for web scraping.\n",
+    "\n",
+    "6. Flask has a large and active community, which provides support and resources for developers.\n",
+    "\n",
+    "Overall, Flask provides a simple and efficient way to create a server that can handle requests and send responses. It is ideal for this web scraping project because it can integrate with other libraries easily and has a low learning curve."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "42b89908-b536-447d-a769-3553f9f2d7c3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q5. Write the names of AWS services used in this project. Also, explain the use of each service."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5e8c5c15-b311-4e8e-ae9f-cccb06e25399",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
